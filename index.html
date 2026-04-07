@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terms of Service — Orto & Trauma Content Publisher</title>
+  <title>Legal — Orto & Trauma Content Publisher</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #333; line-height: 1.7; background: #fafafa; }
     .container { max-width: 760px; margin: 0 auto; padding: 40px 24px 80px; background: #fff; min-height: 100vh; }
-    h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; color: #1a1a1a; }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; color: #1a1a1a; }
     h2 { font-size: 20px; font-weight: 600; margin: 36px 0 12px; color: #1a1a1a; }
     p { margin: 0 0 16px; font-size: 15px; color: #444; }
     ul { margin: 0 0 16px 24px; font-size: 15px; color: #444; }
@@ -16,15 +16,147 @@
     a { color: #2A9D8F; text-decoration: none; }
     a:hover { text-decoration: underline; }
     .meta { font-size: 14px; color: #888; margin-bottom: 32px; }
+    .section-divider { border: none; border-top: 3px solid #2A9D8F; margin: 56px 0; }
     hr { border: none; border-top: 1px solid #e5e5e5; margin: 32px 0; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+    th { background: #f5f5f5; text-align: left; padding: 10px 12px; border: 1px solid #e0e0e0; font-weight: 600; }
+    td { padding: 10px 12px; border: 1px solid #e0e0e0; }
     strong { font-weight: 600; }
+    nav { background: #f5f5f5; padding: 16px 20px; border-radius: 8px; margin-bottom: 40px; }
+    nav a { font-weight: 600; margin-right: 24px; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Terms of Service</h1>
-    <p style="font-size: 17px; color: #555; margin-bottom: 4px;">Orto & Trauma Content Publisher</p>
+
+    <h1>Orto & Trauma Content Publisher</h1>
+    <p style="font-size: 17px; color: #555;">Legal Documents</p>
     <p class="meta">Effective Date: April 7, 2026 &middot; Last Updated: April 7, 2026</p>
+
+    <nav>
+      <a href="#privacy-policy">Privacy Policy</a>
+      <a href="#terms-of-service">Terms of Service</a>
+    </nav>
+
+    <!-- ==================== PRIVACY POLICY ==================== -->
+
+    <h1 id="privacy-policy">Privacy Policy</h1>
+    <p class="meta">Orto & Trauma Content Publisher</p>
+
+    <hr>
+
+    <h2>1. Introduction</h2>
+    <p>This Privacy Policy describes how <strong>Orto & Trauma Content Publisher</strong> ("the App"), operated by <strong>GenAI Sapiens</strong> ("we", "us", or "our"), collects, uses, and protects information when you use our application to publish content to TikTok and other social media platforms.</p>
+    <p>The App is an internal automation tool that publishes educational medical content &mdash; specifically Instagram carousels, TikTok photo posts, and podcast episodes &mdash; on behalf of the <strong>Orto & Trauma with Dr. Polotrauma</strong> brand.</p>
+    <p><strong>Contact:</strong> <a href="mailto:gerard@genaisapiens.com">gerard@genaisapiens.com</a></p>
+
+    <hr>
+
+    <h2>2. Information We Collect</h2>
+    <p>The App collects and processes the following categories of information:</p>
+    <p><strong>2.1 TikTok Account Information</strong></p>
+    <ul>
+      <li>TikTok user ID and display name (obtained via OAuth 2.0 authorization)</li>
+      <li>Access tokens required to publish content on your behalf</li>
+    </ul>
+    <p><strong>2.2 Content Data</strong></p>
+    <ul>
+      <li>Image files (carousel slides) generated for publication</li>
+      <li>Post descriptions and captions</li>
+      <li>Audio files associated with posts</li>
+    </ul>
+    <p><strong>2.3 Technical Data</strong></p>
+    <ul>
+      <li>API response data (post IDs, publication status, error logs)</li>
+      <li>Timestamps of publishing actions</li>
+    </ul>
+    <p>We do <strong>not</strong> collect personal data from TikTok viewers or followers. We do <strong>not</strong> collect analytics, comments, or engagement data from TikTok.</p>
+
+    <hr>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We use the collected information exclusively to:</p>
+    <ul>
+      <li>Publish photo posts and associated content to your TikTok account via the TikTok Content Posting API</li>
+      <li>Monitor publishing status and troubleshoot failed uploads</li>
+      <li>Maintain internal logs of published content for editorial tracking</li>
+    </ul>
+    <p>We do <strong>not</strong> use your information for advertising, profiling, or any purpose unrelated to content publication.</p>
+
+    <hr>
+
+    <h2>4. Data Sharing</h2>
+    <p>We do <strong>not</strong> sell, rent, or trade your information to third parties.</p>
+    <p>Your data may be shared only with the following service providers, strictly for the purpose of content publication:</p>
+    <table>
+      <thead>
+        <tr><th>Service</th><th>Purpose</th><th>Data Shared</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>TikTok (via Content Posting API)</td><td>Publish photo posts</td><td>Images, captions, audio</td></tr>
+        <tr><td>Cloudinary</td><td>Image hosting CDN</td><td>Slide images</td></tr>
+        <tr><td>Google Drive</td><td>File storage</td><td>Content files</td></tr>
+        <tr><td>ElevenLabs</td><td>Text-to-speech generation</td><td>Audio scripts</td></tr>
+      </tbody>
+    </table>
+    <p>All third-party services are bound by their own privacy policies and terms of service.</p>
+
+    <hr>
+
+    <h2>5. Data Retention</h2>
+    <ul>
+      <li><strong>Access tokens</strong> are stored securely and refreshed as required by the TikTok API. Tokens are revoked upon request or when the App is deauthorized.</li>
+      <li><strong>Published content metadata</strong> (post IDs, timestamps) is retained in internal records for editorial reference.</li>
+      <li><strong>Content files</strong> (images, audio) are stored in Google Drive and may be deleted at our discretion after publication.</li>
+    </ul>
+
+    <hr>
+
+    <h2>6. Data Security</h2>
+    <p>We implement reasonable technical and organizational measures to protect your information, including:</p>
+    <ul>
+      <li>Secure storage of API credentials and access tokens</li>
+      <li>HTTPS encryption for all API communications</li>
+      <li>Access restricted to authorized personnel only</li>
+    </ul>
+
+    <hr>
+
+    <h2>7. Your Rights</h2>
+    <p>You may at any time:</p>
+    <ul>
+      <li><strong>Revoke access</strong> to your TikTok account by deauthorizing the App in your TikTok settings</li>
+      <li><strong>Request deletion</strong> of any stored data by contacting us at <a href="mailto:gerard@genaisapiens.com">gerard@genaisapiens.com</a></li>
+      <li><strong>Request information</strong> about what data we hold related to your account</li>
+    </ul>
+    <p>We will respond to all requests within 30 days.</p>
+
+    <hr>
+
+    <h2>8. Children's Privacy</h2>
+    <p>The App is not directed at children under 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children.</p>
+
+    <hr>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last Updated" date at the top of this page. Continued use of the App after changes constitutes acceptance of the revised policy.</p>
+
+    <hr>
+
+    <h2>10. Contact Us</h2>
+    <p>For questions, concerns, or requests regarding this Privacy Policy:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:gerard@genaisapiens.com">gerard@genaisapiens.com</a></li>
+      <li><strong>Organization:</strong> GenAI Sapiens</li>
+      <li><strong>Website:</strong> <a href="https://genaisapiens.com">genaisapiens.com</a></li>
+    </ul>
+
+    <!-- ==================== TERMS OF SERVICE ==================== -->
+
+    <hr class="section-divider">
+
+    <h1 id="terms-of-service">Terms of Service</h1>
+    <p class="meta">Orto & Trauma Content Publisher</p>
 
     <hr>
 
@@ -131,6 +263,7 @@
       <li><strong>Organization:</strong> GenAI Sapiens</li>
       <li><strong>Website:</strong> <a href="https://genaisapiens.com">genaisapiens.com</a></li>
     </ul>
+
   </div>
 </body>
 </html>
